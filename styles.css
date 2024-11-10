@@ -259,3 +259,21 @@ display: none;
 }
 }
 
+@media (max-width: 480px){
+    .navbar-brand{
+  font-size: 1rem;
+    }
+    .glass-navbar {
+        padding: 10px 5px;
+        border-radius: 0;
+        }
+        .skills{
+            padding: 20px 20px;
+        }
+        .skills-badges{
+            gap: 6px;
+        }
+        .skills-badges .badge{
+            padding: 10px 10px;
+        }
+}
